@@ -17,3 +17,66 @@ body {
 	background-color: #15638F;
 
 }
+
+.card__content {
+	background-color: #fff;
+	/* display: flex; */
+	/* flex-direction: column; */
+	justify-content: space-around;
+	/* align-items: baseline; */
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+.card__title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	/* identical to box height */
+	color: #000000;
+	padding: 16px;
+}
+
+.card__text {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	color: #000000;
+	padding: 0px 0px 16px 16px;
+}
+
+.card__btn {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 14px;
+	color: #FFFFFF;
+	margin-bottom: 16px;
+	margin-left: 16px;
+	width: 98px;
+	height: 27px;
+	left: 636px;
+	top: 346px;
+	background: #2797B2;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+}
+
+.card {
+	width: 200px;
+	height: 322px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.card__image {
+	display: flex;
+	border-radius: 10px 10px 0px 0px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
